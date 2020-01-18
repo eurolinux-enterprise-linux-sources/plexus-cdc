@@ -34,7 +34,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.0
-Release:        0.20.a14%{?dist}
+Release:        0.19.a14%{?dist}
 Epoch:          0
 Summary:        Plexus Component Descriptor Creator
 # Almost whole gleaner subpackage is ASL 2.0
@@ -99,9 +99,6 @@ cp -p %{SOURCE2} .
 %doc LICENSE-2.0.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0-0.20.a14
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-0.19.a14
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
